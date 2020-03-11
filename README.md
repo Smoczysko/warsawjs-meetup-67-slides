@@ -1,32 +1,10 @@
-# WarsawJS Meetup: Slides template
+# WarsawJS Meetup #67: Narzędzie CLI w 15 minut?!
 
-:clipboard: Slides for `WarsawJS Meetup`
+:clipboard: Slides for `WarsawJS Meetup #67 - "Narzędzie CLI w 15 minut?!"`
 
 ## Preview
 
-<https://warsawjs.github.io/meetup-slides-template>
-
-## :bulb: How to use this template?
-
-1. For this project
-2. Rename project at `GitHub` (with snake-case style)
-3. Update `description` and `link` on GitHub repository profile
-4. In `index.html`:
-    + `<title>` & `<h1>` tags should have title of your talk
-    + Update link to `"Fork me on GitHub"` at the bottom of document
-5. In `README.md`:
-    + Update main header (in first file)
-    + Update `Preview` link
-    + Remove this tutorial
-
-## Organization logo
-
-<img src="./vendors/shower-warsawjs/images/logo.svg" width="350"/>
-
-## Colors
-
-* Yellow: `#f0db4f` (JavaScript Color)
-* Red: `#f7302f` (WarsawJS Color)
+<https://warsawjs-meetup-67-slides.netlify.com>
 
 ## License
 

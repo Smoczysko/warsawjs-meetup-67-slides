@@ -56,6 +56,7 @@
             <li>Cel / motywacja</li>
             <li>Dostępne rozwiązania</li>
             <li>Live coding</li>
+            <li>Instalacja i testowanie</li>
             <li>Q&A</li>
         </ol>
     </section>
@@ -90,23 +91,32 @@
         </ol>
     </section>
 
-<!--    <section class="slide prism">-->
-<!--        <h2>Listing Slide</h2>-->
+    <section class="slide compact">
+        <h2>Biblioteki</h2>
+        <p>Do potrzeb demonstracyjnych skorzystamy z trzech bibliotek:</p>
+        <ol>
+            <li><a href="https://www.npmjs.com/package/commander" target="_blank">commander</a> - biblioteka upraszczająca pracę z konsolą (parsowanie argumentów)</li>
+            <li><a href="https://www.npmjs.com/package/chalk" target="_blank">chalk</a> - biblioteka ułatwiająca stylowanie komunikatów wypisywanych na konsoli</li>
+            <li><a href="https://www.npmjs.com/package/node-fetch" target="_blank">node-fetch</a> - port window.fetch dla Node.js (wsparcie dla Promise'ów)</li>
+        </ol>
+    </section>
 
-<!--        <pre style="font-size: 45px;" class="language-javascript line-numbers">-->
-<!--            <code>-->
-<!--                function wrap(value) {-->
-<!--                    return function () {-->
-<!--                        return value;-->
-<!--                    }-->
-<!--                }-->
+    <section class="slide compact">
+        <h2>Instalacja</h2>
+        <ol>
+            <li>npm link - lokalnie</li>
+            <li>npm install --global git+ssh://... - z repozytorium git</li>
+            <li>npx - bez konieczności instalacji</li>
+        </ol>
+    </section>
 
-<!--                function bind(monad, f) {-->
-<!--                    return f(monad());-->
-<!--                }-->
-<!--            </code>-->
-<!--        </pre>-->
-<!--    </section>-->
+    <section class="slide compact">
+        <h2>Zasoby</h2>
+        <ol>
+            <li><a href="https://www.npmjs.com/package/@smoczysko/numbers-api" target="_blank">@smoczysko/numbers-api</a> - paczka npm</li>
+            <li><a href="https://github.com/Smoczysko/numbers-api">Smoczysko/numbers-api</a> - kod źródłowy aplikacji</li>
+        </ol>
+    </section>
 
     <section class="slide">
         <h3 class="shout">Q&A</h3>
